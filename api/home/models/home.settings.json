@@ -25,6 +25,9 @@
     },
     "sponsor": {
       "type": "text"
+    },
+    "Test": {
+      "type": "text"
     }
   }
 }
