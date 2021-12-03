@@ -2,12 +2,25 @@
   "kind": "singleType",
   "collectionName": "carousels",
   "info": {
-    "name": "Carousel"
+    "name": "Carousel",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "attributes": {}
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
 }
