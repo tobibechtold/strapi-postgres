@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "welcomeText": {
+      "type": "text"
+    },
+    "driverText": {
+      "type": "text"
+    },
+    "sponsorText": {
+      "type": "text"
+    },
+    "socialText": {
+      "type": "text"
+    }
+  }
+}

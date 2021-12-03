@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "drivers",
+  "collectionName": "articles",
   "info": {
-    "name": "Driver",
-    "description": ""
+    "name": "Article"
   },
   "options": {
     "increments": true,
@@ -11,10 +10,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "description": {
+    "content": {
       "type": "richtext"
     },
     "image": {
@@ -27,24 +26,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "Wohnort": {
-      "type": "string"
-    },
-    "Hardware": {
-      "type": "text"
-    },
-    "iRating": {
-      "type": "integer"
-    },
-    "Rolle": {
-      "type": "enumeration",
-      "enum": [
-        "Fahrer",
-        "Streamer",
-        "Teamchef",
-        "Orga"
-      ]
     }
   }
 }
