@@ -31,9 +31,6 @@
     "Wohnort": {
       "type": "string"
     },
-    "Hardware": {
-      "type": "text"
-    },
     "iRating": {
       "type": "integer"
     },
@@ -45,6 +42,9 @@
         "Teamchef",
         "Orga"
       ]
+    },
+    "Hardware": {
+      "type": "richtext"
     }
   }
 }

@@ -15,19 +15,16 @@
       "type": "string"
     },
     "welcomeText": {
-      "type": "text"
+      "type": "richtext"
     },
     "driverText": {
-      "type": "text"
-    },
-    "socialText": {
-      "type": "text"
+      "type": "richtext"
     },
     "sponsor": {
-      "type": "text"
+      "type": "richtext"
     },
-    "Test": {
-      "type": "text"
+    "socialText": {
+      "type": "richtext"
     }
   }
 }
